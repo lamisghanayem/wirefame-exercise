@@ -1,3 +1,5 @@
+
+
 *{
     box-sizing: border-box;
 }
@@ -6,10 +8,13 @@ body{
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 header{
 background-color: rgb(97, 97, 97);
+width: 90%;
 
 
 
@@ -32,49 +37,37 @@ nav ul li {
 
 #ImageRow1{
   
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 160px;
+    margin-right: 160px;
     margin-top: 30px;
     margin-bottom: 30px;
-    display: block;
+    text-align: center;
 
 }
 
-
-
-#image1{
-
-    margin-left: 60px;
-    margin-right: 20px;
+#ImageRow2{
+    text-align: center;
     margin-bottom: 30px;
-}
-
-#image2{
-    margin-left: 60px;
-    margin-right: 20px;
-    margin-bottom: 30px; 
-}
-
-#image3{
-    margin-left: 60px;
-    margin-right: 20px;
-    margin-bottom: 30px;
+    margin-right: 190px;
+   
 }
 
 
-#leftcolumn{
-    margin-left: 60px;
+
+#lastImage{
     float: left;
-    width: 50%;
+    margin-left: 180px;
+    margin-bottom: 40px;
 }
 
 #rightcolumn{
     
     font-weight: bold;
-    width: 50%;
-    float: right;
-    
-   
+    width: 30%;
+   float: right;
+   height: 400px;
+   margin-right: 300px;  
+
 }
 
 #btn{
@@ -87,10 +80,12 @@ nav ul li {
     font-size: 15px;
     transition: 350ms;
     cursor: pointer;
+    margin-top: 45px;
     
 }
 
 footer{
+    margin-top: 40px;
     clear : both;
     height: 150px;
     background: rgb(97, 97, 97);
